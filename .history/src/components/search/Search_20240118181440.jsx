@@ -11,6 +11,7 @@ function Search( {hideButtons = false}) {
     const [{} , dispatch] = useStateValue()
     const navigate = useNavigate()
 
+    console.log(data);
 
     const search = (e) => {
         e.preventDefault()

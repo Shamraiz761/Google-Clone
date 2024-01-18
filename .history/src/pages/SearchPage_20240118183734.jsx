@@ -1,11 +1,15 @@
-import React from "react";
-import Search from "../components/search/Search";
-import Header from "../components/header/Header";
-function Home() {
+import React from 'react'
+import { useStateValue } from '../context/StateProvider'
+import useGoogleSearch from '../api_key/useGoogleSearch';
+import Response from '../api_key/Response';
+function SearchPage() {
+    const [{term} , dispatch] = useStateValue()
+    // const {data} = useGoogleSearch(term)
+    const data = Response
+console.log(data);
   return (
     <div>
-        <Header />
-    <div
+          <div
       className="flex justify-center items-center flex-col "
       style={{ height: "90vh" , width:'100%' }}
     >
@@ -18,7 +22,7 @@ function Home() {
       <Search hideButtons/>
     </div>
     </div>
-  );
+  )
 }
 
-export default Home;
+export default SearchPage

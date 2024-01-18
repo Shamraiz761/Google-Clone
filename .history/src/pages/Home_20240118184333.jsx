@@ -1,10 +1,9 @@
 import React from "react";
 import Search from "../components/search/Search";
-import Header from "../components/header/Header";
+
 function Home() {
   return (
     <div>
-        <Header />
     <div
       className="flex justify-center items-center flex-col "
       style={{ height: "90vh" , width:'100%' }}
@@ -16,7 +15,6 @@ function Home() {
         style={{maxWidth:'272px'}}
       />
       <Search hideButtons/>
-    </div>
     </div>
   );
 }

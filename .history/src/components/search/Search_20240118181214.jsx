@@ -4,13 +4,11 @@ import MicIcon from '@mui/icons-material/Mic';
 import { useNavigate } from "react-router-dom";
 import { useStateValue } from "../../context/StateProvider";
 import { actionTypes } from "../../context/reducer";
-import useGoogleSearch from "../../api_key/useGoogleSearch";
-
 function Search( {hideButtons = false}) {
     const [input , setInput] = useState('')
     const [{} , dispatch] = useStateValue()
+    const 
     const navigate = useNavigate()
-
 
     const search = (e) => {
         e.preventDefault()

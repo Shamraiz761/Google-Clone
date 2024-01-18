@@ -9,8 +9,10 @@ import useGoogleSearch from "../../api_key/useGoogleSearch";
 function Search( {hideButtons = false}) {
     const [input , setInput] = useState('')
     const [{} , dispatch] = useStateValue()
+    const {data} = useGoogleSearch(term)
     const navigate = useNavigate()
 
+    
 
     const search = (e) => {
         e.preventDefault()

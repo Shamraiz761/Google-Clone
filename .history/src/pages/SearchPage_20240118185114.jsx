@@ -25,19 +25,19 @@ console.log(data);
       <img
         src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
         alt="google logo"
-        className="h-10 ml-5 mt-[-15px] "
+        className="h-10 ml-5 "
        
       />
       <div className='ml-12 mt-[-13px]'>
       <Search hideButtons />
       <div className='flex flex-row justify-between'>
         <div className="flex flex-row justify-center text-gray-600 text-sm mt-3">
-          <p className="mr-5 flex flex-row items-center"><SearchIcon className='h-3 w-3' style={{fontSize:'15px'}}/>All</p>
-          <p className="mr-5"><ImageSearchIcon />Images</p>
-          <p className="mr-5"><ArticleIcon />News</p>
-          <p className="mr-5"><ShoppingCartIcon />Shopping</p>
-          <p className="mr-5"><AddLocationAltIcon /> Maps</p>
-          <p className="mr-5"><MoreVertIcon />More</p>
+          <p className="mr-5">All</p>
+          <p className="mr-5">Images</p>
+          <p className="mr-5">News</p>
+          <p className="mr-5">Shopping</p>
+          <p className="mr-5">Maps</p>
+          <p className="mr-5">More</p>
          
         </div>
         <div className="flex flex-row justify-center text-gray-600 text-sm mt-3">

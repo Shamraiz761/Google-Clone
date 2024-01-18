@@ -32,7 +32,7 @@ console.log(data);
       <Search hideButtons />
       <div className='flex flex-row justify-between'>
         <div className="flex flex-row justify-center text-gray-600 text-sm mt-3">
-          <p className="mr-5 flex flex-row items-center"><SearchIcon className='h-3 w-3' style={{fontSize:'15px'}}/>All</p>
+          <p className="mr-5"><SearchIcon className='h-3 w-3' style={{fontSize:'10px'}}/>All</p>
           <p className="mr-5"><ImageSearchIcon />Images</p>
           <p className="mr-5"><ArticleIcon />News</p>
           <p className="mr-5"><ShoppingCartIcon />Shopping</p>
